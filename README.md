@@ -15,3 +15,7 @@
    - 코드 작성 : models -> views-> template -> urls
    1. views
       1. _say_hello()_
+      2. _say_hello_html()_
+   2. urls 
+      1. _playground/hello/-> _say_hello()_
+      2. _playground/hello_html/ -> _say_hello_html()
