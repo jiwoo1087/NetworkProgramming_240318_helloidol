@@ -10,3 +10,8 @@
       1. python manager.py startapp _playground_
    2. helloidol/settings.py
       1. 'playground', in INSTALLED_APPS
+3. playground/
+   - 정보 전달 : urls -> views -> (models) -> templates
+   - 코드 작성 : models -> views-> template -> urls
+   1. views
+      1. _say_hello()_
