@@ -43,6 +43,7 @@
          3. show_원필()
          4. show_도운()
          5. -> templates에 context 전달
+         6. 정보를 하나로 묶고, 거기에서 꺼내오기
       2. templates/데이식스/
          1. ~~성진.html~~
             1. title: 데이식스 - 성진
