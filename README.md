@@ -38,12 +38,13 @@
       1. 'day6', in INSTALLED_APPS
    3. 데이식스/
       1. views
-         1. show_성진()
-         2. show_young.K()
-         3. show_원필()
-         4. show_도운()
+         1. ~~show_성진()~~
+         2. ~~show_young.K()~~
+         3. ~~show_원필()~~
+         4. ~~show_도운()~~
          5. -> templates에 context 전달
          6. 정보를 하나로 묶고, 거기에서 꺼내오기
+         7. show_멤버()
       2. templates/데이식스/
          1. ~~성진.html~~
             1. title: 데이식스 - 성진
@@ -57,7 +58,8 @@
          4. ~~원필.html~~
          5. ~~도운.html~~
       3. urls
-         1. 데이식스/ -> 성진/ -> show_성진()
-         2. 데이식스/ -> young.k/ -> show_young.k()
-         3. 데이식스/ -> 원필/ -> show_원필()
-         4. 데이식스/ -> 도운/ -> show_도운()
+         1. ~~데이식스/ -> 성진/ -> show_성진()~~
+         2. ~~데이식스/ -> young.k/ -> show_young.k()~~
+         3. ~~데이식스/ -> 원필/ -> show_원필()~~
+         4. ~~데이식스/ -> 도운/ -> show_도운()~~
+         5. 데이식스/ -> <멤버> -> show_멤버(멤버)
