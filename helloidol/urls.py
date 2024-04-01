@@ -17,12 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+import day6
 import playground
 
 urlpatterns = [
     path('playground/', include('playground.urls')),
+    path('day6/', include('day6.urls')),
     # path('playground/hello/', playground.views.say_hello, name='playground_hello'),
     # path('playground/hello_html/', playground.views.say_hello_html, name='playground_hello_html'),
-    path('playground/bye_html/', playground.views.say_bye_html, name='playground_bye_html'),
+    # path('playground/bye_html/', playground.views.say_bye_html, name='playground_bye_html'),
     path('admin/', admin.site.urls),
 ]
