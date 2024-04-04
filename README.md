@@ -46,6 +46,7 @@
          6. 정보를 하나로 묶고, 거기에서 꺼내오기
          7. show_멤버()
          8. image link -> image file(static)
+         9. show_멤버리스트()
       2. templates/데이식스/
          1. ~~성진.html~~
             1. title: 데이식스 - 성진
@@ -56,14 +57,13 @@
          2. 멤버.html
             1. group_name, name, img_src
             2. {% load static %} <img src="{% load static %}">
-         3. ~~young.k.html~~
-         4. ~~원필.html~~
-         5. ~~도운.html~~
+         3. 멤버리스트.html
       3. urls
          1. ~~데이식스/ -> 성진/ -> show_성진()~~
          2. ~~데이식스/ -> young.k/ -> show_young.k()~~
          3. ~~데이식스/ -> 원필/ -> show_원필()~~
          4. ~~데이식스/ -> 도운/ -> show_도운()~~
          5. 데이식스/ -> <멤버> -> show_멤버(멤버)
+         6. 데이식스/ -> 멤버리스트/ -> show_멤버리스트()
       4. static/day6/images/
          1. 성진.jpg, youngk.jpg, 원필.jpg, 도운.jpg

@@ -9,7 +9,9 @@ urlpatterns = [
     # path('youngk/', views.show_youngk, name='youngk'),
     # path('원필/', views.show_원필, name='원필'),
     # path('도운/', views.show_도운, name='도운'),
+    path('멤버리스트/', views.show_멤버리스트, name='멤버리스트'),
     path('<멤버>/', views.show_멤버, name='멤버'),
+
 
 
 ]
