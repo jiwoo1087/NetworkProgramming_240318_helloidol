@@ -13,6 +13,9 @@
 <table border="1">
     <tr>
         <th>이름</th>
+        <th>이름</th>
+        <th>이름</th>
+        <th>이름</th>
         <th>프로필</th>
     </tr>
     {# members에서 하나씩 꺼내어 members에 넣자 #}
@@ -22,7 +25,7 @@
         <td><a href="http://localhost:8000/day6/{{ member.name }}/">{{ member.name }}</a> //: 인터넷 절대</td>
         <td><a href="../../day6/{{ member.name }}/">{{ member.name }}</a> ../../: 부모/부모 주소(상대)</td>
         <td><a href="/day6/{{ member.name }}/">{{ member.name }}</a> /: 호스트 루트(호스트 절대)</td>
-        <td><a href="day6/{{ member.name }}.html">{{ member.name }}</a></td>
+        <td><a href="{% url 'day6:멤버' 멤버=member.name %}">{{ member.name }}</a>
         {%  load static %}
         <td><img src="{% static member.img_src %}" alt="" style="height : 100px; border-radius: 50%"> </td>
     </tr>

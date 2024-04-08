@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55d4e319-f7a7-4dcb-9232-edd983520268" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day6/templates/day6/멤버리스트.html" beforeDir="false" afterPath="$PROJECT_DIR$/day6/templates/day6/멤버리스트.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.NetworkProgramming_240318_helloidol.executor": "Run",
-    "Django Server.runserver.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/erase/PycharmProjects/NetworkProgramming_240318_helloidol",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.NetworkProgramming_240318_helloidol.executor&quot;: &quot;Run&quot;,
+    &quot;Django Server.runserver.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/erase/PycharmProjects/NetworkProgramming_240318_helloidol&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\erase\PycharmProjects\NetworkProgramming_240318_helloidol\day6\templates\day6" />
@@ -121,7 +123,8 @@
       <workItem from="1711330402268" duration="6306000" />
       <workItem from="1711603460381" duration="5922000" />
       <workItem from="1711934943944" duration="5630000" />
-      <workItem from="1712208913870" duration="5594000" />
+      <workItem from="1712208913870" duration="5684000" />
+      <workItem from="1712540391711" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="startproject helloidol">
       <option name="closed" value="true" />
@@ -227,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712213237233</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add link to detail page">
+      <option name="closed" value="true" />
+      <created>1712214595543</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712214595543</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +281,8 @@
     <MESSAGE value="urls, views day6 -&gt; &lt;멤버&gt;/ -&gt; show_멤버(멤버) (context-&gt;) -&gt; 멤버.html" />
     <MESSAGE value="views, templates, static file(image, css, js, ...)" />
     <MESSAGE value="views, 멤버리스트.html, urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="views, 멤버리스트.html, urls" />
+    <MESSAGE value="Add link to detail page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add link to detail page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
