@@ -57,9 +57,15 @@
          2. 멤버.html
             1. group_name, name, img_src
             2. {% load static %} <img src="{% load static %}">
+            3. {% extends 'base.html' %}
+               {% block title %}{% endblock %}
+               {% block content %}{% endblock %}
          3. 멤버리스트.html
             1. {% url '앱이름:path이름' %}
             2. {% url '앱이름:path이름' 변수 = 값 %}
+            3. {% extends 'base.html' %}
+               {% block title %}{% endblock %}
+               {% block content %}{% endblock %}
       3. urls
          1. ~~데이식스/ -> 성진/ -> show_성진()~~
          2. ~~데이식스/ -> young.k/ -> show_young.k()~~
@@ -69,3 +75,12 @@
          6. 데이식스/ -> 멤버리스트/ -> show_멤버리스트()
       4. static/day6/images/
          1. 성진.jpg, youngk.jpg, 원필.jpg, 도운.jpg
+6. tmeplates/
+   1. base.html
+
+               {% block title %}{% endblock %}
+               {% block css %}{% endblock %}
+               {% block content %}{% endblock %}
+7. helloidol/
+   1. in TEMPLATES in settings.py
+      1. 'DIRS' : [BASE_DIR / 'templates'],
