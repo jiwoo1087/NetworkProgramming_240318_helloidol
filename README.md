@@ -77,7 +77,6 @@
          1. 성진.jpg, youngk.jpg, 원필.jpg, 도운.jpg
 6. tmeplates/
    1. base.html
-
                {% block title %}{% endblock %}
                {% block css %}{% endblock %}
                {% block content %}{% endblock %}

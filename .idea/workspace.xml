@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55d4e319-f7a7-4dcb-9232-edd983520268" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/static/day6/images/Coffe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/static/day6/images/Food.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/static/day6/images/Smoothie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/static/day6/images/Tea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/static/day6/images/body.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/templates/day6/메뉴.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/static/day6/images/youngk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/static/day6/images/도운.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/static/day6/images/성진.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/static/day6/images/원필.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/day6/templates/day6/멤버.html" beforeDir="false" afterPath="$PROJECT_DIR$/day6/templates/day6/멤버.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day6/templates/day6/멤버리스트.html" beforeDir="false" afterPath="$PROJECT_DIR$/day6/templates/day6/멤버리스트.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloidol/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloidol/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/erase/PycharmProjects/NetworkProgramming_240318_helloidol&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/erase/PycharmProjects/NetworkProgramming_homecafe&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -89,6 +99,7 @@
         <env name="DJANGO_SETTINGS_MODULE" value="helloidol.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (NetworkProgramming_240318_helloidol)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -127,7 +138,18 @@
       <workItem from="1711603460381" duration="5922000" />
       <workItem from="1711934943944" duration="5630000" />
       <workItem from="1712208913870" duration="5684000" />
-      <workItem from="1712540391711" duration="4098000" />
+      <workItem from="1712540391711" duration="5050000" />
+      <workItem from="1713144749625" duration="597000" />
+      <workItem from="1715564057378" duration="1227000" />
+      <workItem from="1716168843534" duration="99000" />
+      <workItem from="1719467433659" duration="512000" />
+      <workItem from="1719468674704" duration="76000" />
+      <workItem from="1719469987268" duration="2095000" />
+      <workItem from="1719538446315" duration="1919000" />
+      <workItem from="1719540407960" duration="399000" />
+      <workItem from="1719541725027" duration="3687000" />
+      <workItem from="1719641292846" duration="10035000" />
+      <workItem from="1719734818632" duration="8439000" />
     </task>
     <task id="LOCAL-00001" summary="startproject helloidol">
       <option name="closed" value="true" />
@@ -249,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712541475952</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="base.html{% block title %}, {% block css%}, {% block content; TEMPLATES 'DIRS': [BASE_DIR / templates], Apply Bootstrap%}">
+      <option name="closed" value="true" />
+      <created>1712544921415</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712544921415</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +324,8 @@
     <MESSAGE value="views, 멤버리스트.html, urls" />
     <MESSAGE value="Add link to detail page" />
     <MESSAGE value="Add Django url link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Django url link" />
+    <MESSAGE value="base.html{% block title %}, {% block css%}, {% block content; TEMPLATES 'DIRS': [BASE_DIR / templates], Apply Bootstrap%}" />
+    <option name="LAST_COMMIT_MESSAGE" value="base.html{% block title %}, {% block css%}, {% block content; TEMPLATES 'DIRS': [BASE_DIR / templates], Apply Bootstrap%}" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,6 +334,11 @@
           <url>file://$PROJECT_DIR$/day6/urls.py</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/day6/templates/day6/멤버.html</url>
+          <line>78</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

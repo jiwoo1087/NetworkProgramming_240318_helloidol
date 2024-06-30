@@ -11,7 +11,7 @@ urlpatterns = [
     # path('도운/', views.show_도운, name='도운'),
     path('멤버리스트/', views.show_멤버리스트, name='멤버리스트'),
     path('<멤버>/', views.show_멤버, name='멤버'),
-
+    path('<메뉴>/', views.show_메뉴, name='메뉴'),
 
 
 ]
