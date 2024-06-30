@@ -1,3 +1,5 @@
+
+https://github.com/jiwoo1087/NetworkProgramming_240318_helloidol/assets/88700207/5d68abdf-21cb-4a6d-9533-de1d6ea5dad0
  #helloidol
   ---
 1. startproject helloidol
@@ -83,3 +85,12 @@
 7. helloidol/
    1. in TEMPLATES in settings.py
       1. 'DIRS' : [BASE_DIR / 'templates'],
+     
+ 
+
+![So let's go see the stars - Chrome 2024-06-30 22-11-29](https://github.com/jiwoo1087/NetworkProgramming_240318_helloidol/assets/88700207/816169c9-1243-4ce2-b687-98a2ec630b7a)
+
+
+
+
+
